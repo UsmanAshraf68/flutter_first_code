@@ -310,10 +310,10 @@ class NewPagee extends StatelessWidget {
               ),
             ],
           ),
-           Text(
-                "                 All",
-                style: TextStyle(fontSize: 15, color:Color(0xff666666)),
-              ),
+          Text(
+            "                 All",
+            style: TextStyle(fontSize: 15, color: Color(0xff666666)),
+          ),
 
           SizedBox(height: 10),
 
@@ -345,7 +345,7 @@ class NewPagee extends StatelessWidget {
             ],
           ),
 
-          SizedBox(height: 10,),
+          SizedBox(height: 10),
 
           // ListTile(
           //   leading: Icon(Icons.lock_outlined, color: Color(0xff666666)),
@@ -386,7 +386,7 @@ class NewPagee extends StatelessWidget {
               Text(
                 "                 encrypted.Tap to learn more.",
 
-                style: TextStyle(fontSize: 15, color:Color(0xff666666)),
+                style: TextStyle(fontSize: 15, color: Color(0xff666666)),
               ),
             ],
           ),
@@ -404,7 +404,11 @@ class NewPagee extends StatelessWidget {
                 style: TextStyle(fontSize: 15, color: Color(0xff161819)),
               ),
               SizedBox(width: 210),
-              Icon(Icons.toggle_off_outlined, color: Color(0xff8D9598),size: 40,),
+              Icon(
+                Icons.toggle_off_outlined,
+                color: Color(0xff8D9598),
+                size: 40,
+              ),
             ],
           ),
 
@@ -541,9 +545,7 @@ class NewPagee extends StatelessWidget {
 
           ListTile(
             leading: CircleAvatar(
-              backgroundImage: NetworkImage(
-                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThqjAm45P-x18rRDwF0h_Nkju9ellp0Nv6kw&s",
-              ),
+              backgroundImage: AssetImage("assets/cameraman.png"),
               radius: 15,
               backgroundColor: Colors.white,
             ),
@@ -772,7 +774,7 @@ class NewPagee extends StatelessWidget {
             label: "",
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.arrow_left, color: Color(0xff929292),size: 50,),
+            icon: Icon(Icons.arrow_left, color: Color(0xff929292), size: 50),
             label: "",
           ),
           // BottomNavigationBarItem(icon: Icon(Icons.update), label: "Updates"),
