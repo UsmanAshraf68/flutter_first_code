@@ -24,7 +24,7 @@ class MyPost extends StatelessWidget {
                     fontSize: 30,
                   ),
                 ),
-                SizedBox(width:   119),
+                SizedBox(width:125),
                 Icon(Icons.add_box_outlined),
                 SizedBox(width: 5),
                 Icon(Icons.search),

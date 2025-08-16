@@ -1,7 +1,8 @@
 
 
 import 'package:flutter/material.dart';
-import 'package:flutter_application_2/postscreen.dart';
+
+import 'package:flutter_application_2/stackscreen.dart';
 
 
 main(){
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home:         MyPost(),
+      home:StackScreen(),
     );
   }
 }
