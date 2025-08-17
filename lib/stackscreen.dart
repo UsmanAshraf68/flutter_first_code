@@ -6,10 +6,14 @@ class StackScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Color(0xffF6C8B1),
       body: Container(
         width: 1000,
         height: 800,
-        color: Colors.white,
+        decoration: BoxDecoration(
+          image: DecorationImage(image: NetworkImage("https://media.istockphoto.com/id/821760914/vector/pastel-multi-color-gradient-vector-background-simple-form-and-blend-with-copy-space.jpg?s=612x612&w=0&k=20&c=adwrMs3MkPLXMb69AYSoMpnCfLSAb_D3PCQRGGXiM5g="),fit: BoxFit.cover)
+        ),
+        
         child: Stack(
           alignment: Alignment.bottomCenter,
           children: [
