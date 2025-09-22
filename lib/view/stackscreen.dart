@@ -22,7 +22,7 @@ class StackScreen extends StatelessWidget {
                 top: 100,
                 right: 50,
                 child: Transform.rotate(
-                  angle: 95,
+                  angle: 95  ,
                   child: Container(
                     width: 250,
                     height: 250,

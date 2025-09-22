@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_2/login_screen.dart';
-import 'package:flutter_application_2/signup_screen.dart';
+import 'package:flutter_application_2/view/login_screen.dart';
+import 'package:flutter_application_2/view/signup_screen.dart';
 
 class MainScreen extends StatelessWidget {
   const MainScreen({super.key});
